@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toggle Smiley & Background</title>
+  <style>
+    body {
+      transition: background-color 0.5s ease;
+    }
+
+    .center {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .center-button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <h1 id="smileyText">Jai Shree Ram!</h1>
+    <button class="center-button" onclick="changeText()">Change Face</button>
+    <button class="center-button" onclick="changeColor()">Change Background</button>
+  </div>
+
+  <script>
+    let toggleSmiley = false;
+    const colors = ["#f1c40f", "#e74c3c", "#2ecc71", "#3498db", "#9b59b6"];
+    let index = 0;
+
+    function changeText() {
+      toggleSmiley = !toggleSmiley;
+      document.getElementById("smileyText").innerHTML = toggleSmiley ? ":)" : ":(";
+    }
+
+    function changeColor() {
+      document.body.style.backgroundColor = colors[index];
+      index = (index + 1) % colors.length;
+    }
+  </script>
+</body>
+</html>
