@@ -1,0 +1,130 @@
+
+
+.geno{
+    background-color: #f0f0f0;
+    padding: 1-px;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.loginbox{
+    background-color: #f0f0f0;
+    padding: 1-px;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    
+   
+    
+}
+
+.signup{
+   
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+   cursor: pointer;
+ 
+    padding: 10px 20px 10px 20px;
+    
+    color: rgb(34, 2, 160);
+   
+}
+.signup:hover {
+    color: rgb(13, 121, 13);
+  }
+
+.btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+     
+    display: inline-block;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 12px;
+    
+
+}
+
+body {
+    background-color: lightblue;
+    color: #333333;
+    text-transform: capitalize;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+  
+  }
+  .para1{
+    background-color: bisque;
+    border: 10px ;
+    border-style: solid ;
+    
+    width: 380px;
+    padding: 20px;
+    margin: 40px;
+    margin-left: 90px;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  .para1:hover{
+    background-color: #e7e3df;
+    color: #d40e0e;
+  }
+
+  .para1{
+    font-size: 15px;
+    font-weight: bold;
+   color: #cf4d0d;
+   text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, sans-serif;
+    
+  }
+  .para2{
+    background-color: rgba(137, 43, 226, 0.479);
+    border: 10px ;
+    border-style: solid ;
+    width: 380px;
+    padding: 20px;
+    border-width: 4px;
+margin-top: -310px;
+    margin-left: 520px;
+    border-radius: 5px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      
+  }
+
+  .para3{
+    background-color: rgba(137, 43, 226, 0.479);
+    border: 10px ;
+    border-style: solid ;
+    width: 380px;
+    padding: 20px;
+    border-width: 4px;
+    margin-top: -320px;
+    margin-left: 950px;
+    
+    border-radius: 5px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    
+  }
+
+   .para3:hover{
+    background-color: #e7e3df;
+    color: #d40e0e;
+  }
+
+    .para2:hover{
+        background-color: #e7e3df;
+        color: #d40e0e;
+    }
