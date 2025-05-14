@@ -6,7 +6,7 @@
 .container{
     background-color: bisque;
     width: 100%;
-    padding: 100px;
+    padding: 10px;
     height: 100vh;
     display: flex;
     justify-content:space-evenly;
